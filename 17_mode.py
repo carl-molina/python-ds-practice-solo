@@ -11,3 +11,15 @@ def mode(nums):
         >>> mode([2, 2, 3, 3, 2])
         2
     """
+    freq_counter = {}
+    for num in nums:
+        if num not in freq_counter:
+            freq_counter[num] = 1
+        else:
+            freq_counter[num] += 1
+
+    highest_frequency = max(freq_counter.values())
+
+    for key in freq_counter.keys():
+        if freq_counter[key] == highest_frequency:
+            return key
