@@ -7,3 +7,11 @@ def multiple_letter_count(phrase):
         >>> multiple_letter_count('Yay')
         {'Y': 1, 'a': 1, 'y': 1}
     """
+
+    freq_counter = {}
+    for ltr in phrase:
+        if freq_counter.get(ltr) == None:
+            freq_counter[ltr] = 1
+        else:
+            freq_counter[ltr] += 1
+    return freq_counter
