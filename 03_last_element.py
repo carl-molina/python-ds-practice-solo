@@ -12,5 +12,6 @@ def last_element(lst):
         >>> nums == [1, 2, 3]
         True
     """
+    # don't need to have parens in if statement
     if (len(lst) > 0):
         return lst[-1]

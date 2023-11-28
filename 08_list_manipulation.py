@@ -50,3 +50,4 @@ def list_manipulation(lst, command, location, value=None):
     elif command == "add" and location == "beginning":
         lst.insert(0, value)
         return lst
+    # can add return None here to be explicit

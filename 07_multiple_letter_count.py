@@ -10,6 +10,8 @@ def multiple_letter_count(phrase):
 
     freq_counter = {}
     for ltr in phrase:
+        # can be if ltr in freq_counter
+        # use in
         if freq_counter.get(ltr) == None:
             freq_counter[ltr] = 1
         else:

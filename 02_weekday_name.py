@@ -27,3 +27,5 @@ def weekday_name(day_of_week):
     elif day_of_week == 7:
         return 'Saturday'
     #will otherwise return None
+
+    # can have a list of weekdays instead
