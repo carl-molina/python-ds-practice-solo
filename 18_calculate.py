@@ -28,7 +28,8 @@ def calculate(operation, a, b, make_int=False, message='The result is'):
           ...
         ValueError: Invalid Operation
     """
-    result = 0
+    # result = 0
+    # ^not necessary
     if operation == 'add':
         result = a + b
     elif operation == 'subtract':

@@ -18,6 +18,10 @@ def mode(nums):
         else:
             freq_counter[num] += 1
 
+        # can replace if/else statement in for loop
+        # freq_counter[num] = freq_counter.get(num, 0) + 1
+
+
     highest_frequency = max(freq_counter.values())
 
     for key in freq_counter.keys():

@@ -22,3 +22,6 @@ def partition(lst, fn):
     a = [item for item in lst if fn(item)]
     b = [item for item in lst if not fn(item)]
     return [a, b]
+
+    # can put items in a if True and b in False instead
+    # one iteration instead of two

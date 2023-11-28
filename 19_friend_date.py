@@ -23,3 +23,5 @@ def friend_date(a, b):
             return True
 
     return False
+
+    # can use Set here
