@@ -25,3 +25,5 @@ def friend_date(a, b):
     return False
 
     # can use Set here
+    # but how?? Isn't this solution more optimal? Or is there a way that a Set
+    # can return True as soon as a duplicated item tries to enter the Set?
